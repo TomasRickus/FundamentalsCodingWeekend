@@ -1,4 +1,4 @@
-package robotExample;
+package robotSample;
 
 import java.util.Arrays;
 
@@ -22,7 +22,7 @@ public class Robot {
     public Robot() {
     }
 
-    public int getSeriesNo() {
+    public int getSeriesNo(int i) {
         return seriesNo;
     }
 

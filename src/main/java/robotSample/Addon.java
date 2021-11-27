@@ -1,4 +1,4 @@
-package robotExample;
+package robotSample;
 
 /**
  * Brezinys atvaizduojantis papildini - Addon

@@ -1,4 +1,4 @@
-package robotExample;
+package robotSample;
 
 public class RobotFeature {
     //pvz rearures gali buti spotify, youtube, navigation, calculator..

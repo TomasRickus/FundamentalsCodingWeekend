@@ -1,4 +1,4 @@
-package example5;
+package robotExample;
 
 public class Main {
     public static void main(String[] args) {
@@ -10,5 +10,14 @@ public class Main {
         robotJimmy.setSeriesNo(1);
 
         Addon goldenHelmet = new Addon(150, "golden_helmet");
+        robotJimmy.setAddon(goldenHelmet);
+
+        RobotFeature navigation = new RobotFeature("Google maps");
+        RobotFeature spotify = new RobotFeature("Spotify");
+        RobotFeature tinder = new RobotFeature("Tinder");
+        RobotFeature [] jimmyFeatures = {navigation, spotify, tinder};
+        robotJimmy.setRobotFeatures(jimmyFeatures);
+
+        System.out.println(robotJimmy);
     }
 }
